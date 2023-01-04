@@ -1,0 +1,116 @@
+/*************************************index.html****************************************/
+
+
+/*header*/
+
+header {
+    background: linear-gradient(to bottom, black, #002f56, rgba(255, 255, 255, 0.445));
+}
+
+.container_logo img {
+    width: 70px;
+    height: 35px;
+}
+
+a {
+    color: white;
+}
+
+.container_menu p:hover {
+    color: blue;
+    text-shadow: 0px 0px 9px rgb(255, 255, 255);
+}
+
+
+/*Body*/
+
+.container_body {
+    width: 100%;
+    height: 82vh;
+}
+
+body {
+    background-image: url("../img/img_tec_2.webp");
+}
+
+body img {
+    width: 100vw;
+    height: auto;
+}
+
+
+/*formulario*/
+
+.container_form {
+    width: 400px;
+    height: 450px;
+    background: rgba(255, 255, 255, 0.43);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.644);
+    backdrop-filter: blur(5px);
+    margin: 10px;
+}
+
+.container_inputs p {
+    margin: 10px 5px;
+}
+
+.container_mostrar {
+    overflow: auto;
+}
+
+
+/*footer*/
+
+footer {
+    background: rgba(0, 0, 0, 0.733);
+}
+
+footer p {
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 9px rgb(255, 0, 0);
+}
+
+
+/****************************************enunciado.html*************************************/
+
+.container_inputs_enunciado p {
+    padding: 15px;
+    margin: 15px;
+    color: blue;
+    font-size: 20px;
+    text-shadow: 0px 0px 1px rgb(255, 0, 0);
+    text-align: start;
+    background: rgba(255, 255, 255, 0.411);
+}
+
+.h2_enunciado {
+    margin: 15px;
+    padding: 15px;
+    background: radial-gradient(ellipse, white, rgba(0, 0, 0, 0.315));
+}
+
+
+/*****************************************Practicas.html*****************************************/
+
+.container_body_practicas {
+    width: 100%;
+    height: 82vh;
+}
+
+.container_body_practicas div {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container_body_practicas a {
+    color: grey;
+    background: white;
+    width: 100%;
+    height: 100%;
+}
+
+.container_body_practicas div a:hover {
+    color: white;
+    background: grey;
+}
